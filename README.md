@@ -73,3 +73,17 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Preview
+
+Home page:
+![Home page](img/home.png)
+
+Products page:
+![Products page](img/products.png)
+
+Products item page:
+![Products page](img/products_item.png)
+
+About Us page:
+![Products page](img/aboutUs.png)

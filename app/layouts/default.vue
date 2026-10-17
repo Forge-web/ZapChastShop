@@ -3,12 +3,15 @@ import AppBreadcrumb from '~/components/breadcrumb/appBreadcrumb.vue';
 import ButtonHeader from '~/components/buttons/buttonHeader.vue';
 
 
+useHead({
+	title: "ZapChast Shop"
+});
+
 const pagesHeader = [
 	{text: "Главная", url: "/", active: true},
 	{text: "Товары", url: "/products", active: true},
 	{text: "О нас", url: "/aboutUs", active: true},
 ]
-
 
 
 </script>
