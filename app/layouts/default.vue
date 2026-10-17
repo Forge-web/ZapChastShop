@@ -1,11 +1,15 @@
 <script setup lang="ts">
+import AppBreadcrumb from '~/components/breadcrumb/appBreadcrumb.vue';
 import ButtonHeader from '~/components/buttons/buttonHeader.vue';
+
 
 const pagesHeader = [
 	{text: "Главная", url: "/", active: true},
 	{text: "Товары", url: "/products", active: true},
 	{text: "О нас", url: "/aboutUs", active: true},
 ]
+
+
 
 </script>
 
@@ -40,6 +44,9 @@ const pagesHeader = [
 	
 		
 		<main class="flex flex-col max-w-200 w-full self-center">
+			<div class="mt-2">
+				<AppBreadcrumb />
+			</div>
 			<div class="my-4 w-full">
 				<slot />
 			</div>

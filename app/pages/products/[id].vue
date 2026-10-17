@@ -43,8 +43,8 @@ const modalWin = ref(false);
 <Teleport to="#teleports">
 	<div v-if="modalWin" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
 	
-		<div class="flex flex-col max-w-150 w-full outline-dashed outline-black">
-			<div class="w-max p-3 text-white cursor-pointer bg-gray-900/80 rounded-xl" @click="modalWin=false">
+		<div class="flex flex-col p-5 gap-5 max-w-150 w-full outline-dashed outline-gray-400">
+			<div class="w-max p-3 text-white cursor-pointer bg-gray-600/80 rounded-xl" @click="modalWin=false">
 				cancel
 			</div>
 
